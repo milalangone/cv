@@ -5,44 +5,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi Curriculum Vitae</title>
     <link rel="stylesheet" href="style.css">
+    <script src="scripts.js"defer></script>
 </head>
 <body>
     <header>
-        <h1>Mila Langone</h1>
-        <p>Información de contacto</p>
-    </header>
+            <nav>
+                <ul>
+                    <li><button id = "Button_Home">Home</button><button></li>
+                    <li><button id = "Button_Projects">Projects</button><button></li>
+                    <li><button id = "Button_Experience">Experience</button><button></li>
+                    <li><button id = "Button_Education">Education</button><button></li>
+                    <li><button id = "Button_Contact">Contact</button><button></li>
+
+                </ul>
+            </nav>
+        </header>
     <main>
-        <section id="perfil">
-            <h2>Perfil</h2>
-            <p>Estudiante avanzada de Bioingeniería @ITBA</p>
+        <section id="home" class="cv-section">
+            <h2>Home</h2>
+            <p>Amo al coreano</p>
         </section>
-        <section id="experiencia">
-            <h2>Experiencia</h2>
+        <section id="projects" class="cv-section">
+            <h2>Projects</h2>
+            <p>Acá van todos mis projectos</p>
+        </section>
+        <section id="experience" class="cv-section">
+            <h2>Experience</h2>
             <ul>
                 <li>Trabajo 1 - Descripción</li>
                 <li>Trabajo 2 - Descripción</li>
-                <!-- Añadir más trabajos según sea necesario -->
             </ul>
         </section>
-        <section id="educacion">
-            <h2>Educación</h2>
+        <section id="education" class="cv-section">
+            <h2>Education</h2>
             <ul>
                 <li>Institución 1 - Descripción</li>
                 <li>Institución 2 - Descripción</li>
-                <!-- Añadir más instituciones según sea necesario -->
             </ul>
         </section>
-         <!-- ...otras secciones... -->
-        <section id="contacto">
-            <h2>Contacto</h2>
-            <p>Email: tuemail@ejemplo.com</p>
-            <p>Teléfono: 123-456-7890</p>
-            <div id="boton-container"></div>
+        <section id="contact" class="cv-section">
+            <h2>Contact</h2>
+            <p>Email: mlangone@itba.edu.ar</p>
+            <p>Teléfono: +54 911 6579-8879</p>
         </section>
     </main>
     <footer>
         <p>&copy; 2024 Nombre Completo</p>
     </footer>
-    <script src="scripts.js"></script>
 </body>
 </html>
