@@ -1,0 +1,111 @@
+/* Estilos Generales */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+/* Encabezado */
+header {
+    background: #007acc;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Contenido Principal */
+main {
+    padding: 20px;
+}
+
+/* Secciones */
+section {
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #007acc;
+    border-bottom: 2px solid #007acc;
+    padding-bottom: 5px;
+}
+
+/* Listas */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background: #e0e0e0;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-left: 5px solid #007acc;
+    border-radius: 4px;
+}
+
+li:hover {
+    background: #d0d0d0;
+}
+
+/* Pie de Página */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 0.5px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Media Queries para diseño responsivo */
+@media (max-width: 768px) {
+    header, footer {
+        text-align: center;
+        padding: 15px;
+    }
+    
+    main {
+        padding: 10px;
+    }
+
+    section {
+        margin-bottom: 15px;
+        padding: 15px;
+    }
+
+    li {
+        margin-bottom: 8px;
+        padding: 8px;
+    }
+}
+
+@media (max-width: 480px) {
+    header, footer {
+        padding: 10px;
+    }
+    
+    main {
+        padding: 5px;
+    }
+
+    section {
+        margin-bottom: 10px;
+        padding: 10px;
+    }
+
+    li {
+        margin-bottom: 5px;
+        padding: 5px;
+    }
+}
